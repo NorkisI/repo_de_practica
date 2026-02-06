@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Básico - Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Sistema de Autenticación</h1>
+    <p class="subtitle">Evaluación 1 - Login Básico</p>
+    
+    <div id="message" class="message hidden"></div>
+    
+    <div id="authSection">
+      <button id="btnLogin" class="btn">Iniciar Sesión</button>
+      <button id="btnRegister" class="btn" style="background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);">Registrarse</button>
+    </div>
+
+    <div id="userSection" class="hidden">
+      <h2>Bienvenido, <span id="userName"></span>!</h2>
+      <p>Email: <span id="userEmail"></span></p>
+      <p>Rol: <span id="userRole"></span></p>
+      <button id="btnLogout" class="btn" style="background: #f44336;">Cerrar Sesión</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
